@@ -1,6 +1,6 @@
 # 210 NLA Project
 
-This project implements and compares three different machine learning models for breast cancer classification: Coordinate Descent, Stochastic Gradient Descent (SGD), and Support Vector Machine (SVM).
+This project implements and compares three different machine-learning models for breast cancer classification: Coordinate Descent, Stochastic Gradient Descent (SGD), and Support Vector Machine (SVM).
 
 ## Requirements
 
@@ -55,23 +55,27 @@ The project uses the Breast Cancer Wisconsin (Diagnostic) Dataset, which is auto
 
 Here are the results of our experiments:
 
+CD converged after 988 iterations
+
+SGD converged after 57 iterations
+
 1. Coordinate Descent:
-- Accuracy: 0.9649
+- Accuracy: 0.9737
 - Precision: 0.9545
-- Recall: 0.9545
-- F1-score: 0.9545
+- Recall: 0.9767
+- F1-score: 0.9655
 
 2. Stochastic Gradient Descent (SGD):
-- Accuracy: 0.9561
-- Precision: 0.9535
-- Recall: 0.9318
-- F1-score: 0.9425
+- Accuracy: 0.9649
+- Precision: 0.9333
+- Recall: 0.9767
+- F1-score: 0.9545
 
 3. Support Vector Machine (SVM):
-- Accuracy: 0.9737
-- Precision: 0.9787
-- Recall: 0.9545
-- F1-score: 0.9664
+- Accuracy: 0.9825
+- Precision: 1.0000
+- Recall: 0.9535
+- F1-score: 0.9762
 
 SVM Best Parameters:
 - C: 1
@@ -80,4 +84,4 @@ SVM Best Parameters:
 
 The SVM model performed the best among the three models, achieving the highest accuracy, precision, and F1-score. The Coordinate Descent and SGD models also performed well, with accuracies above 95%.
 
-The learning curves, confusion matrices, and ROC curves provide additional insights into the models performance and can be found in the `main.ipynb` file.
+The learning curves, confusion matrices, and ROC curves provide additional insights into the model's performance and can be found in the `main.ipynb` file.
